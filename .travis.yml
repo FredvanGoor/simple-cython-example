@@ -14,7 +14,10 @@ install:
     - sudo apt-get install $PYTHON-setuptools
     - sudo apt-get install $PYTHON-numpy
     - sudo easy_install$PYSUF pip
-    - pip --help
+    - pip list
+    - pip --version
+    - pip$PYVER
+    - pip-$PYVER
     - sudo pip-$PYVER install cython --install-option=--no-cython-compile
     - sudo $PYTHON setup.py develop
 script:
