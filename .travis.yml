@@ -3,7 +3,7 @@
 #
 
 notifications:
-  email: true
+  email: false
 language: c
 env:
     - PYTHON=python PYSUF='' PYVER=2.7
