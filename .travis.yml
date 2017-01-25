@@ -14,8 +14,8 @@ install:
     - sudo apt-get install $PYTHON-setuptools
     - sudo apt-get install $PYTHON-numpy
     - sudo easy_install$PYSUF pip
-    - sudo pip$PYSUF install cython --no-use-wheel --install-option=--no-cython-compile
-    - sudo $PYTHON setup.py develop
+   # - sudo pip$PYSUF install cython --install-option=--no-cython-compile
+   # - sudo $PYTHON setup.py develop
 script:
-    - "cd cython_example_proj"
-    - "$PYTHON test/test_cython_examples.py"
+   # - "cd cython_example_proj"
+   # - "$PYTHON test/test_cython_examples.py"
