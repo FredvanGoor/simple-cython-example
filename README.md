@@ -2,7 +2,7 @@ simple-cython-example
 =======================
 [![Build Status](https://travis-ci.org/thearn/simple-cython-example.png?branch=master)](https://travis-ci.org/thearn/simple-cython-example)
 
-A small template project that acts as a working tutorial on how to wrap C
+Aa small template project that acts as a working tutorial on how to wrap C
 code into python using [cython](http://cython.org/), and integrate the
 extensions into an installable module. Developed around python 2.7, but written for compatibility with python 3.x.
 
