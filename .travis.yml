@@ -16,9 +16,7 @@ install:
     - sudo easy_install$PYSUF pip
     - pip list
     - pip --version
-    - pip$PYVER
-    - pip-$PYVER
-    - sudo pip-$PYVER install cython --install-option=--no-cython-compile
+    - sudo pip$PYVER install cython --install-option=--no-cython-compile
     - sudo $PYTHON setup.py develop
 script:
     - "cd cython_example_proj"
